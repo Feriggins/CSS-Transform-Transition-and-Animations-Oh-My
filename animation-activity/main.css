@@ -29,6 +29,8 @@ body  {
   margin: auto;
 }
 
+
+
 li {
   list-style-type: none;
   margin-bottom: 1em;
@@ -41,4 +43,9 @@ a {
 }
 a:hover {
   color: ghostwhite;
+  transform: rotate(20deg) translatey(-20px);
+      opacity: 0;
+      filter: blur(20px)
 }
+
+
